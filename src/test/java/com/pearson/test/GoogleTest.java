@@ -21,7 +21,7 @@ public class GoogleTest {
         googlePage.launchSite();
 
         //enters the keyword & clicks on the search button
-        googlePage.searchFor("");
+        googlePage.searchFor(searchKeyword);
 
         //once the search results are displayed, just print
         googlePage.printSearchResults();
